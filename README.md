@@ -7,10 +7,10 @@
 Устанавливаем Python-библиотеку для работы с Телеграмом: pip isnatll pytelegrambotapi
 Подключаем библиотеку import telebot, bot = telebot.Telebot('token')
 Пишем код с командами и добавляем кнопки.
-В данном боте я использовала два вида кнопок: Inline(url) и обычные Reply
-Inline - кнопки вы видите под сообщением. Используется тип  markup = types.InlineKeyboardMarkup(),  btn1 = types.InlineKeyboardButton(text='', callback_data='btn1'), markup.add(btn1)
-Reply - кнопки вы видите вместо клавиатуры. Используется тип markup = types.ReplyKeyboardMarkup(resize_keyboard=True), btn1 = types.KeyboardButton(" "), markup.add(btn1)
-Так же использовала Эмоджи для предания боту какой то яркости. 
+В данном боте я использовала два вида кнопок: Inline(url) и обычные Reply.
+Inline - кнопки вы видите под сообщением. Используется тип  markup = types.InlineKeyboardMarkup(),  btn1 = types.InlineKeyboardButton(text='', callback_data='btn1'), markup.add(btn1).
+Reply - кнопки вы видите вместо клавиатуры. Используется тип markup = types.ReplyKeyboardMarkup(resize_keyboard=True), btn1 = types.KeyboardButton(" "), markup.add(btn1).
+Использовала Эмоджи для предания боту яркости. 
 Предсказания были написаны единожды ,но  в дальнейшем планирую проработать , и уже предсказания будут рандомно из интеренета. Каждый день новые предсказания. 
 Ну а далее пробуем наш бот.                                                                                                      
 Это мой первый бот, поэтому не судите строго;)
